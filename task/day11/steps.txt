@@ -1,0 +1,9 @@
+1. Creating the HTML file(which display the content on website): now I have created an index.html file with my details on it and the Dockerfile and build it with tag my-website
+
+2. checked the image is build and in the images list
+
+3. started the container with the image created and linked port 8080 of server and 80 of contain with -p flag
+
+4. changed port range in aws to allow listing at 8080 port
+
+5. contents are visible on site when open with ip address and port number 8080
